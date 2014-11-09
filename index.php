@@ -11,6 +11,8 @@ require_once 'app/init.php';
 </head>
 <body>
 
+	<p>Changes</p>
+
 	<?php if(!isset($_SESSION['facebook'])): ?>
 
 		<a href="<?php echo $facebook->getLoginUrl(); ?>">Sign in with Facebook</a>
