@@ -15,7 +15,7 @@ require_once 'app/init.php';
 
 	<p>Clean Up</p>
 
-	<p>Commit Test</p>
+	<p>Commit Test 2</p>
 
 	<?php if(!isset($_SESSION['facebook'])): ?>
 
